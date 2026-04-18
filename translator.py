@@ -29,8 +29,9 @@ def main():
         print("Translated:", translated)
         speak_text(translated, "kn")
 
+
     else:
-        print("Invalid choice")
+        print("Invalid choice selected. Please choose either 1 or 2.")
 
 if __name__ == "__main__":
     main()
