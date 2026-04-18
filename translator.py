@@ -16,7 +16,7 @@ def main():
     print("1: Kannada → English")
     print("2: English → Kannada")
 
-    choice = input("Choose option: ")
+    choice = input("Choose option from 1 or 2: ")
     text = input("Enter text: ")
 
     if choice == "1":
@@ -28,7 +28,6 @@ def main():
         translated = translate_text(text, "kn")
         print("Translated:", translated)
         speak_text(translated, "kn")
-
 
     else:
         print("Invalid choice selected. Please choose either 1 or 2.")
